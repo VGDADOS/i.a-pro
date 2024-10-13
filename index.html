@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VG BLACK I.A.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        /* CSS aqui */
+    </style>
+    <script>
+        // JavaScript aqui
+    </script>
+</head>
+<body>
+    <div id="login" class="login-container active">
+        <h1>Login VG BLACK</h1>
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" placeholder="Digite seu usuário">
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="Digite sua senha">
+
+        <div class="button-container">
+            <button onclick="login()">Entrar</button>
+        </div>
+    </div>
+
+    <div id="loading" class="loading-container">
+        <div class="loader"></div> <!-- Bolinha de carregamento acima -->
+        <h1>Carregando...</h1>
+        <div class="loading-message" id="loadingMessage"></div>
+    </div>
+
+    <div id="app" class="app">
+        <h1>VG BLACK</h1>
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1" placeholder="Digite um número">
+
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2" placeholder="Digite um número">
+
+        <label for="num3">Número 3:</label>
+        <input type="number" id="num3" placeholder="Digite um número">
+
+        <label for="num4">Número 4:</label>
+        <input type="number" id="num4" placeholder="Digite um número">
+
+        <div class="button-container">
+            <button onclick="calcular()">Analisar</button>
+        </div>
+        
+        <p id="resultado"></p>
+
+        <div class="data data1"></div>
+        <div class="data data2"></div>
+        <div class="data data3"></div>
+        <div class="data data4"></div>
+        <div class="data data5"></div>
+        <div class="data data6"></div>
+    </div>
+</body>
+</html>
